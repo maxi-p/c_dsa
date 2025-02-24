@@ -1,0 +1,12 @@
+# Editor
+.vscode
+
+# Executables
+out/*
+
+# OS
+**/.DS_Store
+
+# Helper files
+*.txt
+*.sql
