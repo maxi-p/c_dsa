@@ -10,3 +10,4 @@ out/*
 # Helper files
 *.txt
 *.sql
+db
