@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -87,7 +86,7 @@ void toAdjList(Node* graph, int edges[][2], int num_edges) {
 // 8    1  5
 //      3
 
-// answer (bfs): 0 2 4 6 7 1 8 9 6 3 5
+// answer (bfs): 0 2 4 6 7 1 8 9 3 5
 int main() {
   int num_nodes = NUM_NODES;
   int edges[][2] = {
