@@ -66,8 +66,8 @@ int sumbits(int n) {
   int sum = 0;
   
   while (n > 0) {
-    sum += (n & 1);// everything cancel out except the right most bit
-    n = (n >> 1); //bringing each digit to the right most bit
+    sum += (n & 1); // sum with masked right most bit
+    n = (n >> 1); // dividing by 2
   }
   return sum;
 }
